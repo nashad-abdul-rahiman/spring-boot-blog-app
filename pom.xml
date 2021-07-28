@@ -53,7 +53,8 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
-        <groovy.version>3.0.7</groovy.version>
+	<groovy.version>3.0.7</groovy.version>
+	<sonar.projectKey>simple-java-project</sonar.projectKey>
     </properties>
 
 
