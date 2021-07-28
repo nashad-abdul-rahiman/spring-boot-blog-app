@@ -27,6 +27,11 @@ public class HelloResource {
     public Map<String, String> sayHello() {
         return Map.of("hello", "world");
     }
+    
+    @GetMapping("/debug/saybye")
+    public Map<String, String> saybye() {
+        return Map.of("Good", "Bye");
+    }
 
     @PostMapping("/debug/sendEmail")
     public ResponseEntity<Void> sendEmailWithAttachments(@RequestBody @Valid @NotNull EmailDto email) {
